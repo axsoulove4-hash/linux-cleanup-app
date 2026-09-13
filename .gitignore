@@ -1,0 +1,11 @@
+build/
+build-*/
+__pycache__/
+*.user
+*.zip
+*.tar.gz
+*.appimage
+*.AppImage
+preview.png
+page-*.png
+verification.json

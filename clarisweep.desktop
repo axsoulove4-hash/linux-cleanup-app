@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Linux Cleanup
+Name[fr]=Linux Cleanup
+GenericName=Disk cleanup
+GenericName[fr]=Nettoyage de disque
+Comment=Nettoyage Linux prudent
+Exec=/home/alexisf/clarisweep/build/clarisweep
+Icon=/home/alexisf/clarisweep/clarisweep.svg
+Terminal=false
+Categories=Utility;System;
+StartupNotify=true
+StartupWMClass=clarisweep
+Keywords=cleanup;cache;disk;storage;
+Keywords[fr]=nettoyage;cache;disque;stockage;
