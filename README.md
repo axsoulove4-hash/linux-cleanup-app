@@ -2,7 +2,7 @@
 
 Application C++20 et Qt6, interface vectorielle inspirée du modèle fourni.
 
-Port Windows : voir [guide Windows](windows/README-Windows.md). Sources adaptées et script de compilation/déploiement fournis. Build et tests Linux validés ; EXE Windows pas encore compilé ni testé.
+Port Windows : télécharger [archive source + scripts Windows](https://github.com/axsoulove4-hash/linux-cleanup-app/releases/download/v0.1.0/LinuxCleanup-Windows-sources.zip). Build et tests Linux validés ; EXE Windows pas encore compilé ni testé.
 
 ## Lancer
 
