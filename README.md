@@ -7,7 +7,7 @@ Port Windows : télécharger [archive source + scripts Windows](https://github.c
 ## Lancer
 
 ```bash
-/home/alexisf/clarisweep/build/clarisweep
+./build/clarisweep
 ```
 
 ## Comportement
@@ -29,10 +29,10 @@ Paquets : suggestions en lecture seule avec DNF (cache local), APT ou pacman ; a
 ## Compiler et vérifier
 
 ```bash
-cmake -S /home/alexisf/clarisweep -B /home/alexisf/clarisweep/build
-cmake --build /home/alexisf/clarisweep/build -j4
-ctest --test-dir /home/alexisf/clarisweep/build --output-on-failure
-QT_QPA_PLATFORM=offscreen /home/alexisf/clarisweep/build/clarisweep --verify
+cmake -S . -B build
+cmake --build build -j4
+ctest --test-dir build --output-on-failure
+QT_QPA_PLATFORM=offscreen ./build/clarisweep --verify
 ```
 
 Vérification : captures build/page-0.png à page-5.png et rapport build/verification.json. Tests de suppression limités à des fichiers créés dans un dossier temporaire de test ; aucune donnée utilisateur nettoyée par les tests.
